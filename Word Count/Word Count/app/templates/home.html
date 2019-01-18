@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 {% load staticfiles %}
 <html lang="en">
@@ -16,12 +15,12 @@
     <link href='{% static "/css/stylish-portfolio.min.css" %}' rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href='{% static "vendor/fontawesome-free/css/all.min.css" %}' rel="stylesheet" type="text/css">
+    <link href='{% static "/vendor/fontawesome-free/css/all.min.css" %}' rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href='{% static "vendor/simple-line-icons/css/simple-line-icons.css" %}' rel="stylesheet">
+    <link href='{% static "/vendor/simple-line-icons/css/simple-line-icons.css" %}' rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="{% static "css/stylish-portfolio.min.css" %}" rel="stylesheet">
+    <link href='{% static "/css/stylish-portfolio.min.css" %}'' rel="stylesheet">
 
   </head>
 
@@ -156,7 +155,7 @@
                   <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+              <img class="img-fluid" src='{% static "/img/portfolio-1.jpg" %}' alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -167,7 +166,7 @@
                   <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+              <img class="img-fluid" src='{% static "/img/portfolio-2.jpg" %}' alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -178,7 +177,7 @@
                   <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+              <img class="img-fluid" src='{% static "/img/portfolio-3.jpg" %}' alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -189,7 +188,7 @@
                   <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+              <img class="img-fluid" src='{% static "/img/portfolio-4.jpg" %}' alt="">
             </a>
           </div>
         </div>
@@ -244,20 +243,16 @@
     </a>
 
     <!-- Bootstrap core JavaScript -->
-    <script src='{% static "vendor/jquery/jquery.min.js" %}''></script>
-    <script src='{% static "vendor/bootstrap/js/bootstrap.bundle.min.js" %}''></script>
+    <script src='{% static "/vendor/jquery/jquery.min.js" %}'></script>
+    <script src='{% static "/vendor/bootstrap/js/bootstrap.bundle.min.js" %}''></script>
 
     <!-- Plugin JavaScript -->
-    <script src='{% static "vendor/jquery-easing/jquery.easing.min.js" %}'></script>
+    <script src='{% static "/vendor/jquery-easing/jquery.easing.min.js" %}'></script>
 
     <!-- Custom scripts for this template -->
-    <script src='{% static "js/stylish-portfolio.min.js" %}'></script>
+    <script src='{% static "/js/stylish-portfolio.min.js" %}'></script>
 
-  </body>
-
-</html>
-=======
-<h1>글자를 입력해주세요</h1>
+    <h1>글자를 입력해주세요</h1>
 
 <a href="{%url 'about' %}">ABOUT</a>
 
@@ -266,4 +261,8 @@
     <br>
     <input type="submit" value="세기">
 </form>
->>>>>>> 1cc8612527ae97abd4a0024aaf92de51ed024973
+  </body>
+
+</html>
+=======
+

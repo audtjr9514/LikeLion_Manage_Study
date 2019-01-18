@@ -119,7 +119,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-<<<<<<< HEAD
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-=======
->>>>>>> 1cc8612527ae97abd4a0024aaf92de51ed024973
