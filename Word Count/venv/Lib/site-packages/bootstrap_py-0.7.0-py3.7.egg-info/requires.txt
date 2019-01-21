@@ -1,0 +1,10 @@
+setuptools
+Jinja2
+Sphinx
+requests
+defusedxml
+pguard
+GitPython
+
+[reST]
+Sphinx

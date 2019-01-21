@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+pguard.py
+setup.cfg
+setup.py
+docs/Makefile
+docs/source/CHANGELOG.rst
+docs/source/README.rst
+docs/source/conf.py
+docs/source/index.rst
+docs/source/modules/index.rst
+pguard.egg-info/PKG-INFO
+pguard.egg-info/SOURCES.txt
+pguard.egg-info/dependency_links.txt
+pguard.egg-info/requires.txt
+pguard.egg-info/top_level.txt
