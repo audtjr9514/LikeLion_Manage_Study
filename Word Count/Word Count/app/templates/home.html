@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% load static %}
 <!-- saved from url=(0060)https://getbootstrap.com/docs/4.2/examples/starter-template/ -->
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -14,6 +14,8 @@
 
   <!-- Bootstrap core CSS -->
   <link href="{% static 'bootstrap.min.css' %}" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
 
 
@@ -35,35 +37,17 @@
 
 <body style="">
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="https://getbootstrap.com/docs/4.2/examples/starter-template/#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.2/examples/starter-template/#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{%url 'home' %}">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.2/examples/starter-template/#">Link</a>
+          <a class="nav-link" href="{%url 'about' %}">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="https://getbootstrap.com/docs/4.2/examples/starter-template/#">Disabled</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://getbootstrap.com/docs/4.2/examples/starter-template/#" id="dropdown01"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="https://getbootstrap.com/docs/4.2/examples/starter-template/#">Action</a>
-            <a class="dropdown-item" href="https://getbootstrap.com/docs/4.2/examples/starter-template/#">Another
-              action</a>
-            <a class="dropdown-item" href="https://getbootstrap.com/docs/4.2/examples/starter-template/#">Something
-              else here</a>
-          </div>
-        </li>
-      </ul>
+    </div>
+    </li>
+    </ul>
     </div>
   </nav>
 
@@ -73,9 +57,9 @@
       <h1>글자 수를 세어줍니당</h1>
       <form action="{%url 'result' %}">
         <br>
-          <textarea cols="40" rows="10" name="fulltext"></textarea>
-          <br>
-          <input type="submit" value="세기">
+        <textarea cols="60" rows="20" name="fulltext"></textarea>
+        <br>
+        <button type="submit" class="btn btn-light">Word Count</button>
       </form>
     </div>
 
@@ -85,6 +69,13 @@
   <script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
   <script src="{% static 'bootstrap.bundle.min.js' %}" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP"
     crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
 
 </body>
 

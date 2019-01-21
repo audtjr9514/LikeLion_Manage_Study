@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300&subset=korean');
 body {
   padding-top: 5rem;
+  font-family: 'Sunflower', sans-serif;
 }
 .starter-template {
   padding: 3rem 1.5rem;

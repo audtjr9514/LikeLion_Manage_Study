@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c34b32d7-3bc6-4d8d-bdad-13d0dbaa5d47" name="Default Changelist" comment="" />
+    <list default="true" id="c34b32d7-3bc6-4d8d-bdad-13d0dbaa5d47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Word Count/Word Count/app/static/starter-template.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Word Count/Word Count/app/static/starter-template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Word Count/Word Count/app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Word Count/Word Count/app/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Word Count/Word Count/app/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Word Count/Word Count/app/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Word Count/Word Count/app/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Word Count/Word Count/app/templates/result.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +68,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -75,6 +79,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
