@@ -1,8 +1,6 @@
-num = input("숫자를 입력하세요 : ")
-
-int(num)
+num = int(input("정수를 입력하세요 : "))
 
 if num % 2 == 0 :
-    print(num + "는 짝수입니다.")
+    print(num, "은 짝수입니다.")
 else :
-    print(num + "는 홀수입니다.")
+    print(num, "은 홀수입니다.")
