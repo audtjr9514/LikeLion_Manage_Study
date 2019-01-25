@@ -4,4 +4,4 @@ math = 55
 
 avg = (korean + english + math) / 3
 
-print (avg)
+print ((korean + english + math) / 3)

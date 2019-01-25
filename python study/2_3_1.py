@@ -1,3 +1,3 @@
-list1 =['Life', 'is', 'too', 'short']
+list =['Life', 'is', 'too', 'short']
 str = " "
-print(str.join(list1))
+print(str.join(list))
