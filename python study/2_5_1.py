@@ -1,4 +1,2 @@
-A, B = input().split()
-A = int(A)
-B = int(B)
-print(A+B)
+dict = {'name':'홍길동', 'birth':'1128', 'age':30}
+print(dict)
