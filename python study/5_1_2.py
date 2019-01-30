@@ -1,4 +1,4 @@
-# [문제2] MaxLimitCalculator
+# 클래스 [문제2] MaxLimitCalculator
 
 # 이번에 여러분이 작성해야 하는 클래스는 MaxLimitCalculator 클래스이다. 
 # MaxLimitCalculator 클래스는 객체변수 value가 100이상의 값은 가질 수 없도록 제한하는 클래스이다. 
@@ -18,6 +18,7 @@
 #     def add(self, val):
 #         self.value += val
 # 위와 같은 조건을 만족하는 MaxLimitCalculator 클래스를 작성하시오.
+#-------------------------------------------------------------------
 
 class Calculator:
     def __init__(self):
