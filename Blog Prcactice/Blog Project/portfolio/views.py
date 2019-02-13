@@ -1,6 +1,8 @@
 from django.shortcuts import render
+from .models import Portfolio
 
 def portfolio(request):
-    return render(request, 'portfolio.html')
+    Ports = Portfolio.objects
+    return render(request, 'portfolio.html', {'ports':Ports})
 
 # Create your views here.
